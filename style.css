@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Darker background */
+    color: #d1d1d1; /* Softer light text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(26, 26, 26, 0.95); /* Almost black with slight transparency */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6); /* Subtle shadow for depth */
+}
+
+#quote {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #e0e0e0; /* Slightly brighter for readability */
+    font-style: italic; /* Adds to the cool, introspective vibe */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #1a1a1a; /* Dark text for contrast */
+    background-color: #d1d1d1; /* Neutral light button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #c1c1c1; /* Slightly darker on hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+button:active {
+    background-color: #b0b0b0; /* Darker shade on click */
+    transform: scale(1); /* Reset zoom on click */
+}
